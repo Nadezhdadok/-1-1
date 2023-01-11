@@ -1,2 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Введите целое число > 0");
+int n = Convert.ToInt32(Console.ReadLine());
+int s = 0;
+for (int i = 1;i<=n;i++)
+{
+    s += 2 * i - 1;
+}
+Console.WriteLine(s);
+
